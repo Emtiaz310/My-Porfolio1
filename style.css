@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 p{
     margin-bottom: 40px;
@@ -17,6 +17,7 @@ p{
 }
 .flexible-area{
     display: flex;
+    margin-bottom: 60px;
 }
 .half-with{
     width: 40%;
@@ -33,5 +34,9 @@ p{
     color: #fff;
     background: linear-gradient(45deg, hsl(0, 45%, 37%) , tomato );
     border-radius: 5px;
-    
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
